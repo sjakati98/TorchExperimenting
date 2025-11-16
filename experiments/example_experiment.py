@@ -86,7 +86,7 @@ def main():
     output_dim = 2
     batch_size = 32
     learning_rate = 0.001
-    epochs = 5
+    epochs = 15
     
     # Model
     model = SimpleNet(input_dim, hidden_dim, output_dim).to(device)
